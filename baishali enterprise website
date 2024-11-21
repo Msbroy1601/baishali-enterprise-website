@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baishali Enterprise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0 0;
+        }
+        .main-section {
+            padding: 40px;
+            text-align: center;
+        }
+        .main-section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .main-section p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        .clients {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .clients img {
+            max-width: 150px;
+            height: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: white;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Baishali Enterprise</h1>
+        <p>Kolkata | Local Printers for All Your Printing Needs</p>
+        <p>Contact: +91-6290509189</p>
+        <p>Email: baishali.enterprise1995@gmail.com</p>
+    </header>
+    <div class="main-section">
+        <h2>About Us</h2>
+        <p>Welcome to Baishali Enterprise! We are your trusted local printing partners in Kolkata, 
+           specializing in providing top-notch printing services on contract. We work with leading automotive brands like Toyota, VW, and BMW.</p>
+    </div>
+    <div class="main-section">
+        <h2>Our Clients</h2>
+        <div class="clients">
+            <img src="toyota_logo.png" alt="Toyota Logo">
+            <img src="vw_logo.png" alt="Volkswagen Logo">
+            <img src="bmw_logo.png" alt="BMW Logo">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Baishali Enterprise. All rights reserved.</p>
+        <p>Location: Kolkata, India</p>
+    </footer>
+</body>
+</html>
